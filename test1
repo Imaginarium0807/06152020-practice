@@ -1,0 +1,8 @@
+thslist = ['sb','nc','jb']
+for t in thslist:
+    if t == 'sb':
+        pass
+    elif t == 'nc':
+        print('nima xue bi ')
+    else:
+        print('sb 1g')
