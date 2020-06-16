@@ -1,0 +1,10 @@
+adj = ["red", "cherry", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+def tel():
+    for x in adj:
+        for y in fruits:
+            if x == y:
+                print(x,y,'eat together')
+            else:
+                print(x,y,'dont eat at all')
+tel()
